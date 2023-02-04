@@ -1,0 +1,42 @@
+doctype html
+html
+  head
+    title DanceAcademy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar  
+      ul
+        div#logo 
+          img(src="../static/logo.png", alt="logo")
+        li #[a(href = "/") Home]
+        li #[a(href = "/") About]
+        li #[a(href = "/") Services]
+        li #[a(href = "/") Contact]
+
+    section#front
+      div Welcome to Dance Academy Plus
+      div.small Rest, Eat and Dance
+
+    section#mission 
+      h2 Our Mission
+      div.mission 
+        div.card
+          img(src="../static/img1.png", alt="img1")
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, ut?
+        div.card
+          img(src="../static/img2.png", alt="img2")
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, ut?
+        div.card
+          img(src="../static/img3.png", alt="img3")
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, ut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, mollitia?
+
+    section#sponsors 
+      h2 Our Sponsors 
+      div.images
+         img(src="../static/s1.png", alt="sponsor-1")
+         img(src="../static/s2.png", alt="sponsor-2")
+         img(src="../static/s3.png", alt="sponsor-3")
+         img(src="../static/s4.png", alt="sponsor-4")
+
+    
